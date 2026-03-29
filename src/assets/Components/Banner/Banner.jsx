@@ -1,0 +1,64 @@
+import React from 'react';
+import { FaRegDotCircle } from 'react-icons/fa';
+import BannerImg from '../../Images/banner.png'
+import { CiPlay1 } from 'react-icons/ci';
+
+const Banner = () => {
+    return (
+        <>
+            <div className='flex justify-between mt-22 p-5'>
+                <div className='mt-22'>
+                    <div className='btn flex items-center w-57 rounded-full gap-3 p-2 bg-purple-100 text-purple-600 text-[12px]'> <FaRegDotCircle /> New: AI-Powered Tools Available</div>
+                    <h1 className='text-[80px] font-bold'>Supercharge Your <br />
+                        Digital Workflow</h1>
+
+                    <p>Access premium AI tools, design assets, templates, and productivity <br />
+                        software—all in one place. Start creating faster today. <br />
+                        Explore Products
+                    </p>
+
+                    <div className='mt-3 flex gap-3'>
+                        <a className="btn rounded-full text-white bg-linear-to-r from-purple-900 to-purple-600 font-bold">Explore Products</a>
+                        <a className="btn rounded-full text-violet-600 border border-violet-600 font-bold hover:text-white hover:bg-linear-to-r from-purple-900 to-purple-600">
+                            <CiPlay1 />
+                            Watch Demo</a>
+                    </div>
+
+                </div>
+
+                <div className='opacity-70'>
+                    <img src={BannerImg} alt="BannerImg" />
+                </div>
+
+
+            </div>
+
+            <div className="w-full bg-linear-to-r from-purple-900 to-purple-600 py-10 text-white">
+                <div className="flex justify-around items-center text-center">
+
+                    <div>
+                        <h2 className="text-4xl font-bold">50K+</h2>
+                        <p className="mt-2 text-sm">Active Users</p>
+                    </div>
+
+                    <div className="w-0.5 h-12 bg-white opacity-50"></div>
+
+                    <div>
+                        <h2 className="text-4xl font-bold">200+</h2>
+                        <p className="mt-2 text-sm">Premium Tools</p>
+                    </div>
+
+                    <div className="w-0.5 h-12 bg-white opacity-50"></div>
+
+                    <div>
+                        <h2 className="text-4xl font-bold">4.9</h2>
+                        <p className="mt-2 text-sm">Rating</p>
+                    </div>
+
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default Banner;

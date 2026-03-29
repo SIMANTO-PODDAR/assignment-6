@@ -21,7 +21,7 @@ const Navbar = () => {
                     <span className='flex mx-3.5 font-bold'> <FiShoppingCart /> </span>
                     <span className='mb-8 mr-7 p-1 rounded-full bg-amber-600'>1</span>
                     <a className="mr-3">Login</a>
-                    <a className="btn rounded-full text-white bg-violet-600 font-bold">Get Started</a>
+                    <a className="btn rounded-full text-white bg-linear-to-r from-purple-900 to-purple-600 font-bold">Get Started</a>
                 </div>
             </div>
         </div>
