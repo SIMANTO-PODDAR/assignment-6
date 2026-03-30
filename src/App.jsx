@@ -8,6 +8,7 @@ import FallbackUI from './assets/Components/Fallback/FallbackUI';
 import Cart from './assets/Components/Cart/Cart';
 import { toast } from 'react-toastify';
 import Steps from './assets/Components/StepsSection/Steps';
+import PricingSection from './assets/Components/PricingSection/PricingSection';
 
 
 //            for data
@@ -57,6 +58,8 @@ function App() {
       <Cart tab={tab} cartItems={cartItems} setCartItems={setCartItems} />
 
       <Steps />
+
+      <PricingSection />
 
     </div>
   )
