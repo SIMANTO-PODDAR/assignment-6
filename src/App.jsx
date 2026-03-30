@@ -9,6 +9,7 @@ import Cart from './assets/Components/Cart/Cart';
 import { toast } from 'react-toastify';
 import Steps from './assets/Components/StepsSection/Steps';
 import PricingSection from './assets/Components/PricingSection/PricingSection';
+import Footer from './assets/Components/Footer/Footer';
 
 
 //            for data
@@ -60,6 +61,8 @@ function App() {
       <Steps />
 
       <PricingSection />
+
+      <Footer />
 
     </div>
   )
