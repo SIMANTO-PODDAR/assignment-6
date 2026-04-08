@@ -1,6 +1,6 @@
-# 🛠️ Digital Tools - Professional Digital Asset Store
+# 🛠️ DigiTools - Professional Digital Asset Store
 
-**Digital Tools** is a sleek and high-performance web application designed for users to browse, select, and purchase various digital products. Built with **React.js**, it features a smooth user experience, dynamic product filtering, and a fully functional shopping cart system.
+**DigiTools** is a sleek and high-performance web application designed for users to browse, select, and purchase various digital products. Built with **React.js**, it features a smooth user experience, dynamic product filtering, and a fully functional shopping cart system.
 
 🔗 **Live Demo:** [https://digitools-by-simanto.netlify.app/](https://digitools-by-simanto.netlify.app/)
 
